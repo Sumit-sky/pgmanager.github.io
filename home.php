@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Welcome Nigga</title>
+	<?php require "navbar.php" ?>
+	<link rel="stylesheet" href="home.css">
+</head>
+
+<body>
+	<div class="main">
+		<div class="quote">
+			<h1>PG Manager - Manage Your Paying Guest's</h1>
+			<h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus eveniet inventore laboriosam,
+				voluptatem non repellat dolor amet
+				ipsum rem, facilis mollitia dolore labore, libero eum. Facilis excepturi praesentium accusamus odit.
+			</h6>
+
+			<button onclick='window.location.href="login.php";'>Join Us</button>
+		</div>
+
+	</div>
+	<section id="Services" class="container">
+		<div class="cards">
+			<a href="#"><i class="fas fa-user-friends fa-3x"></i></a>
+			<a href="#"><h3 class="Services-h3">Our Team</h3></a>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur et necessitatibus iste culpa! Architecto eveniet, suscipit sunt fugit, temporibus, cupiditate repudiandae illo cumque earum iure nihil pariatur quos qui recusandae?
+			</p>
+		</div>
+		<div class="cards">
+			<a href="#"><i class="fas fa-tools fa-3x"></i></a>
+			<a href="#"><h3 class="Services-h3">Our Services</h3></a>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur et necessitatibus iste culpa! Architecto eveniet, suscipit sunt fugit, temporibus, cupiditate repudiandae illo cumque earum iure nihil pariatur quos qui recusandae?
+			</p>
+		</div>
+		<div class="cards">
+			<a href="contact.php"><i class="fas fa-headset fa-3x"></i></a>
+			<a href="contact.php"><h3 class="Services-h3">Complain/Contact Us</h3></a>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur et necessitatibus iste culpa! Architecto eveniet, suscipit sunt fugit, temporibus, cupiditate repudiandae illo cumque earum iure nihil pariatur quos qui recusandae?
+			</p>
+			
+		</div>
+	</section>
+
+	<section id="About">
+		<div class="About">
+			<h1 class="About-h1">Here, You can read more about our Work</h1>
+			<p class="About-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+				incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+			<button onclick='window.location.href="about.php";'>Read More</button>
+		</div>
+	</section>
+
+	<?php require 'footer.php' ?>
+</body>
+
+</html>

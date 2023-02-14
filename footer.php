@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<style>
+    .footer {
+        text-align: center;
+        text-decoration: solid;
+        color: wheat;
+        margin-top: 2px;
+        padding: 2rem;
+        background:black;
+        opacity: 0.6;
+        
+        overflow: hidden;
+
+
+    }
+    .footer span{
+        color: aqua;
+    }
+
+    
+</style>
+
+<body>
+    <div class="footer">
+        <p>© copyright 2022-23 <a href="home.php"><span>PG-Manager</span></a>  | All rights reserved</p>
+    </div>
+
+</body>
+
+</html>
